@@ -149,11 +149,21 @@
         Invoice
       </div>
 
+<<<<<<< HEAD
       <div class="card-body">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create">Create</button>
         <!-- Search -->
         <table class="table" style="text-align: center; margin-top: 5%;">
           <thead>
+=======
+        <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          <table style="width:50%; margin-left: 25%; margin-bottom: 5%; text-align: center;" id="tab">
+>>>>>>> b40ff8d7d4594c7322b7292133b91cd0dc1d7fb2
             <tr>
               <th scope="col">No</th>
               <th scope="col">Invoice</th>
@@ -413,6 +423,7 @@
             </tbody>
           </table>
           <input type="button" name="print" id="print" value="Print" style="width: 30vh;">
+<<<<<<< HEAD
         </div>
       </div>
       </div>
@@ -440,3 +451,44 @@
         <!-- Script -->
   <script type="text/javascript" src="js/printTable.js"></script>
   </body>
+=======
+          <!-- END Modal -->
+      </div>
+
+      </div>
+      </tr>
+    </tbody>
+  </table>
+  <!-- End tables -->
+  </main>
+  <script>
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+  </script>
+  <script type="text/javascript" src="js/printTable.js"></script>
+  </body>
+  </html>
+>>>>>>> b40ff8d7d4594c7322b7292133b91cd0dc1d7fb2
