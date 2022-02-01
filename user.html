@@ -1,54 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>User</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
-
-    
-
-    <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Bootstrap java script -->
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.84.0">
+      <title>User</title>
   
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#7952b3">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+  
+      
+  
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+      
+  
+      <!-- Bootstrap java script -->
     
-    <!-- Custom styles for this template -->
-    <link href="headers.css" rel="stylesheet">
-  </head>
+      <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#7952b3">
+  
+  
+      <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+  
+      
+      <!-- Custom styles for this template -->
+      <link href="headers.css" rel="stylesheet">
+    </head>
   <body>
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -171,84 +174,146 @@
               <td>111111</td>
               <td>admin</td>
               <td>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detail1">Detail</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#clone1">Clone</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit1">Edit</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detail">Detail</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit">Edit</button>
                 <button type="button" class="btn btn-danger">Delete</button>
               </td>
             </tr>
-            <tr>
-              <td>User</td>
-              <td>User Invoice</td>
-              <td>L</td>
-              <td>222222</td>
-              <td>user</td>
-              <td>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detail2">Detail</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#clone2">Clone</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit2">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-              </td>
-            </tr>
-      </div>
           </tbody>
         </table>
-        <br>
       </div>
-    </div>  
+      </div>
    </main>
 
 
-   <!-- Modal Add User -->
-      <div class="modal" id="adduser">
-      <div class="modal-dialog">
+    <!-- Modal Add User -->
+    <div class="modal" id="adduser">
+      <div class="modal-dialog modal-xl">
       <div class="modal-content">
 
       <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title"> Heading</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
+    <div class="modal-header">
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+  
+    <!-- Modal body -->
+    <div class="modal-body">
+       <!-- CARD UTAMA -->
+       <div class="card">
+        <div class="card-header bg-primary text-white">
+            <i class="bi bi-person-workspace">Manajemen User</i> 
+        </div>
+        <div class="card-body">
+            
+            <!-- CARD DROPDOWN -->
+            <div class="btn btn-primary text-white d-flex justify-content-between" id="btn-adduser">
+                <span><i class="bi bi-person-plus-fill"></i>Add User</span>
+                <i class="bi bi-caret-down-fill"></i>
+            </div>
 
-      <!-- Modal body -->
-      <div class="modal-body">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
-      </div>
-      </div>
+            <div class="container border-end border-start border-bottom p-4 d-none" id="content-adduser">
+                <!-- FORM START -->
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="username" class="form-label">Username <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <input type="username" class="form-control" id="username" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <input type="password" class="form-control" id="password" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <input type="text" class="form-control" id="nama" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="gender" class="form-label">Gender</label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <select class="form-select" aria-label="" id="gender">
+                                <option selected>Select</option>
+                                <option value="0">Laki - laki</option>
+                                <option value="1">Perempuan</option>
+                              </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="alamat" class="form-label">Alamat</label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <input type="text" class="form-control" id="alamat" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="hp" class="form-label">HP</label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <input type="tel" class="form-control" id="hp" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="akses" class="form-label">Akses <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <select class="form-select" aria-label="" id="akses" required>
+                                <option selected>Select</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                              </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-2 col-12">
+                            <label for="is-aktif" class="form-label">Is Aktif <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-10 col-12">
+                            <select class="form-select" aria-label="" id="is-aktif" required>
+                                <option selected>Select</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                              </select>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="d-block ms-auto btn btn-primary mt-4">Submit</button>
+                </form>
+                <!--FORM END-->
+            </div>
+            <!-- CARD DROPDOWN END-->
+        </div>
+    </div>
+    <!--CARD END-->
+    </div>
+    </div>
+    </div>
+    </div>
           
   <!-- Modal Detail -->
-        <div class="modal" id="detail1">
-        <div class="modal-dialog">
+        <div class="modal" id="detail">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
 
         <!-- Modal Header -->
@@ -257,105 +322,250 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
     
-      <!-- Modal body -->
-      <div class="modal-body">
-      </div>
+     <!-- Modal body -->
+     <div class="modal-body">
+      <!-- CARD UTAMA -->
+      <div class="card">
+       <div class="card-header bg-primary text-white">
+           <i class="bi bi-person-workspace">Detail</i> 
+       </div>
+       <div class="card-body">
+           
+           <!-- CARD DROPDOWN -->
+           <div class="btn btn-primary text-white d-flex justify-content-between" id="btn-detail">
+               <span><i class="bi bi-person-plus-fill"></i>Detail</span>
+               <i class="bi bi-caret-down-fill"></i>
+           </div>
+
+           <div class="container border-end border-start border-bottom p-4 d-none" id="content-detail">
+               <!-- FORM START -->
+               <form>
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="username" class="form-label">Username <span class="text-danger">*</span></label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="admin" disabled>
+                      </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="12345" disabled>
+                       </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="Admin Invoice" disabled>
+                       </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="gender" class="form-label">Gender</label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="L" disabled>
+                       </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="alamat" class="form-label">Alamat</label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="Perum Jenggolo Indah 2" disabled>
+                       </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="hp" class="form-label">HP</label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="081235858189" disabled>
+                       </div>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="akses" class="form-label">Akses <span class="text-danger">*</span></label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="admin" disabled>
+                   </div>
+
+                   <div class="row mb-3">
+                       <div class="col-md-2 col-12">
+                           <label for="is-aktif" class="form-label">Is Aktif <span class="text-danger">*</span></label>
+                       </div>
+                       <div class="col-md-10 col-12">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="Yes" disabled>
+                       </div>
+                   </div>
+                   
+                   <button type="submit" class="d-block ms-auto btn btn-primary mt-4">Back</button>
+               </form>
+               <!--FORM END-->
+           </div>
+           <!-- CARD DROPDOWN END-->
+       </div>
+   </div>
+   <!--CARD END-->
+   </div>
       </div>
       </div>
       </div>
 
-      <!-- Modal Detail2 -->
-      <div class="modal" id="detail2">
-      <div class="modal-dialog">
-      <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title"> Heading</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
 
-      <!-- Modal body -->
-      <div class="modal-body">
-      </div>
-      </div>
-      </div>
-      </div>
-
-         <!-- Modal Clone -->
-        <div class="modal" id="clone1">
-        <div class="modal-dialog">
-        <div class="modal-content">
+        <!-- Modal Edit -->
+        <div class="modal" id="edit">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
   
           <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Heading</h4>
+          <h4 class="modal-title"> Heading</h4>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
+      
+       <!-- Modal body -->
+       <div class="modal-body">
+        <!-- CARD UTAMA -->
+        <div class="card">
+         <div class="card-header bg-primary text-white">
+             <i class="bi bi-person-workspace">Manajemen User</i> 
+         </div>
+         <div class="card-body">
+             
+             <!-- CARD DROPDOWN -->
+             <div class="btn btn-primary text-white d-flex justify-content-between" id="btn-edit">
+                 <span><i class="bi bi-person-plus-fill"></i>Add User</span>
+                 <i class="bi bi-caret-down-fill"></i>
+             </div>
   
-        <!-- Modal body -->
-        <div class="modal-body">
+             <div class="container border-end border-start border-bottom p-4 d-none" id="content-edit">
+                 <!-- FORM START -->
+                 <form>
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="username" class="form-label">Username <span class="text-danger">*</span></label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="admin" disabled>
+                        </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                            <input class="form-control" id="disabledInput" type="text" placeholder="12345" disabled>
+                         </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                            <input class="form-control" id="disabledInput" type="text" placeholder="Admin Invoice" disabled>
+                         </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="gender" class="form-label">Gender</label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="L" disabled>
+                         </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="alamat" class="form-label">Alamat</label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                            <input class="form-control" id="disabledInput" type="text" placeholder="Perum Jenggolo Indah 2" disabled>
+                         </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="hp" class="form-label">HP</label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                            <input class="form-control" id="disabledInput" type="text" placeholder="081235858189" disabled>
+                         </div>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="akses" class="form-label">Akses <span class="text-danger">*</span></label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="admin" disabled>
+                     </div>
+  
+                     <div class="row mb-3">
+                         <div class="col-md-2 col-12">
+                             <label for="is-aktif" class="form-label">Is Aktif <span class="text-danger">*</span></label>
+                         </div>
+                         <div class="col-md-10 col-12">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="Yes" disabled>
+                         </div>
+                     </div>
+                     
+                     <button type="submit" class="d-block ms-auto btn btn-primary mt-4">Back</button>
+                 </form>
+                 <!--FORM END-->
+             </div>
+             <!-- CARD DROPDOWN END-->
+         </div>
+     </div>
+     <!--CARD END-->
+     </div>
         </div>
-      </div>
-      </div>
-      </div>
+        </div>
+        </div>
 
-        <!-- Modal Clone -->
-        <div class="modal" id="clone2">
-          <div class="modal-dialog">
-          <div class="modal-content">
-    
-            <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title"> Heading</h4>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-          </div>
-    
-          <!-- Modal body -->
-          <div class="modal-body">
-          </div>
-        </div>
-        </div>
-        </div>
-
-        <!-- Modal Edit -->
-        <div class="modal" id="edit1">
-          <div class="modal-dialog">
-          <div class="modal-content">
-    
-            <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title"> Heading</h4>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-          </div>
-    
-          <!-- Modal body -->
-          <div class="modal-body">
-          </div>
-        </div>
-        </div>
-        </div>
-        
-         <!-- Modal Edit -->
-         <div class="modal" id="edit2">
-          <div class="modal-dialog">
-          <div class="modal-content">
-    
-            <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title"> Heading</h4>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-          </div>
-    
-          <!-- Modal body -->
-          <div class="modal-body">
-          </div>
-        </div>
-        </div>
-        </div>
 
 
-
-        <!-- Script -->
-  <script type="text/javascript" src="js/printTable.js"></script>
+         <!-- Script -->
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+         <script type="text/javascript" src="js/printTable.js"></script>
+        <script>
+    // DROPDOWN ADD USER
+    $(document).ready(function () {
+        $("#btn-adduser").click(function () {
+            $("#content-adduser").toggleClass("d-none");
+            $("#btn-adduser > i").toggleClass("bi-caret-down-fill bi-caret-up-fill")
+        });
+    });
+     // DROPDOWN DETAIL
+     $(document).ready(function () {
+        $("#btn-detail").click(function () {
+            $("#content-detail").toggleClass("d-none");
+            $("#btn-detail > i").toggleClass("bi-caret-down-fill bi-caret-up-fill")
+        });
+    });
+     // DROPDOWN EDIT
+     $(document).ready(function () {
+        $("#btn-edit").click(function () {
+            $("#content-edit").toggleClass("d-none");
+            $("#btn-edit > i").toggleClass("bi-caret-down-fill bi-caret-up-fill")
+        });
+    });
+      </script>
   </body>
